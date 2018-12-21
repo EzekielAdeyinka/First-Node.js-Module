@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "0.1.0",
+  "description": "First Node.js package",
+  "main": "index.js",
+  "dependencies": {
+    "test": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzekielAdeyinka/First-Node.js-Module.git"
+  },
+  "author": "Ezekiel Adeyinka <adeyinkaezekiel1@gmail.com> (ezekieladeyinka.online)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EzekielAdeyinka/First-Node.js-Module/issues"
+  },
+  "homepage": "https://github.com/EzekielAdeyinka/First-Node.js-Module#readme"
+}
